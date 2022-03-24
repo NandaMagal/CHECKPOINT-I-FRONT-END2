@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/CSS/form.css">
+</head>
+<body>
+    <!--Dados para preenchimento-->
+    <main class="container">
+        <h2>Cadastre uma Cidade</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="city" id="cityname"
+                    placeholder="Registre o nome da cidade">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="text"  name="description" id="descriptionCity"
+                    placeholder="Coloque a descrição da cidade">
+                <div class="underline"></div>
+            </div>
+            <div class="input-url">
+                <input type="url" name="url" id="urlCity"
+                    placeholder="Url da imagem">
+                    <label for="nome"></label>
+            </div>
+            <input id="salvar" type="submit" value="enviar">
+        </form>
+        <div class="footer">
+            <span>Vamos juntos ultrapassar fronteiras.</span>
+            
+            <div class="social-fields">
+            </div>
+        </div>
+    </main>
+
+    <!--Segundo card - Informações capturadas -->
+    <main>
+        <div id="cidades"></div>
+    </main>
+    
+    <script src="/script/form.js"></script>
+</body>
+</html>
